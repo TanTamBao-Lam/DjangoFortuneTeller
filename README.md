@@ -46,24 +46,24 @@ The resulting structure should look like:
 8. Let’s create the actual file which we will send to the client!
 Within the namespaced template folder, create an HTML file named, **fortune.html**. The new file will contain some markup to format our message. Paste in the following HTML which has some placeholder in the text which will allow us to see text in the browser:
 
-><!DOCTYPE html>
-><html lang="en">
-><head>
-> <title>Django Fortune Teller</title>
-> <style>
->   body {
->     text-align: center;
->   }
-> </style>
-></head>
-><body>
->
-> <h1>Here is your fortune:</h1>
->
-> <p>Place holder for fortune</p>
->
-></body>
-></html>
+`<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Django Fortune Teller</title>
+ <style>
+   body {
+     text-align: center;
+   }
+ </style>
+</head>
+<body>
+
+ <h1>Here is your fortune:</h1>
+
+ <p>Place holder for fortune</p>
+
+</body>
+</html>`
 
 
 Take a second and look at the provided HTML. It contains some boilerplate HTML structure and some barebones CSS. Inside the `<body>` tags, there is placeholder text that we will soon replace with data.
