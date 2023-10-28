@@ -65,6 +65,7 @@ Within the namespaced template folder, create an HTML file named, **fortune.html
 ></body>
 ></html>
 
+
 Take a second and look at the provided HTML. It contains some boilerplate HTML structure and some barebones CSS. Inside the `<body>` tags, there is placeholder text that we will soon replace with data.
 After you have pasted the HTML and have taken a look at it press “Save”. We’ll have to write the view functions and the URLconfig before we can see it.
 
