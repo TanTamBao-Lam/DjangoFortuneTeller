@@ -38,7 +38,9 @@ After you add the app to the list, click “Save”.
 Inside the project app directory, `randomfortune/`, create a folder named, **templates**. Next, within the newly created, `templates/`, create a folder named **randomfortune** to namespace our template file.
 The resulting structure should look like:
 >randomfortune/
+>
 >└── templates/
+>
 >    └── randomfortune/
 
 8. Let’s create the actual file which we will send to the client!
